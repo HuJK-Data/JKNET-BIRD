@@ -67,3 +67,7 @@ The bird config for my network
 # Country code:
 #  ISO-3166 numeric-3 country code
 ```
+
+### Credits
+
+* KSKB: Helps me complete the filters
