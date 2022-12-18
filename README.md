@@ -41,6 +41,7 @@ The bird config for my network
 #       (207705,1102,6939): prepend 1 to AS6939
 #       (207705,1202,6939): prepend 2 to AS6939
 #       (207705,1802,6939): prepend 8 to AS6939
+#                   Total : 1+2+8 = 11
 #    prepend 2 to everyone but 6939:
 #      (207705,1200,0):     prepend 2 to everyone
 #      (207705,1201,6939):  don't do this action(prepend 2) to AS6939
