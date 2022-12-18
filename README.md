@@ -42,10 +42,10 @@ The bird config for my network
 #       (207705,1202,6939): prepend 2 to AS6939
 #       (207705,1802,6939): prepend 8 to AS6939
 #    prepend 2 to everyone but 6939:
-#      (207705,1200,0):    prepend 1 to everyone
-#      (207705,1201,6939): don't do action to AS6939
+#      (207705,1200,0):     prepend 2 to everyone
+#      (207705,1201,6939):  don't do this action(prepend 2) to AS6939
 #    do not announce to anyone: 
-#      (207705,1000,0):    do not announce to everyone
+#      (207705,1000,0):     do not announce to everyone
 #
 # Informational Community
 #  (207705,10000,region_code)    Received from region
@@ -63,7 +63,7 @@ The bird config for my network
 #  * 49: Africa-S (below Sahara)
 #  * 50: Asia-S (IN,PK,BD)
 #  * 51: Asia-SE (TH,SG,PH,ID,MY)
-#  * 52: Asia-E (JP,CN,KR)
+#  * 52: Asia-E (JP,KR,TW,HK,CN)
 #  * 53: Pacific&Oceania (AU,NZ,FJ)
 #  * 54: Antarctica
 #  * 55: Asia-N (RU)
