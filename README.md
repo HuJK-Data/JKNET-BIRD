@@ -23,7 +23,7 @@ The bird config for my network
 #    ░ = 4   prepend 4 to target
 #    ░ = 8   prepend 8 to target
 #   Action target selector:
-#    ░ = Action target selector
+#    ░ = Action
 #    (207705,1░00,0)            Do action to everyone
 #    (207705,1░01,asn)          Don't do action to this asn
 #    (207705,1░02,asn)          Do action to this asn
@@ -37,9 +37,15 @@ The bird config for my network
 #    (207705,1░30,2)            Do action to peers
 #    (207705,1░30,3)            Do action to downstreams
 #   Examples:
-#    prepend 11 to AS6939: [(207705,1102,6939),(207705,1202,6939),(207705,1802,6939)]
-#    prepend 1 to everyone but 6939: [(207705,1100,6939),(207705,1101,6939)]
-#    do not announce to anyone: [(207705,1000,0)]
+#     prepend 11 to AS6939: 
+#       (207705,1102,6939): prepend 1 to AS6939
+#       (207705,1202,6939): prepend 2 to AS6939
+#       (207705,1802,6939): prepend 8 to AS6939
+#    prepend 2 to everyone but 6939:
+#      (207705,1200,0):    prepend 1 to everyone
+#      (207705,1201,6939): don't do action to AS6939
+#    do not announce to anyone: 
+#      (207705,1000,0):    do not announce to everyone
 #
 # Informational Community
 #  (207705,10000,region_code)    Received from region
