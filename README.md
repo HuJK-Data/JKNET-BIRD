@@ -76,4 +76,4 @@ The bird config for my network
 
 ### Credits
 
-* Special thanks KSKB helps me complete the filters
+* Special thanks KSKB helps me complete some filters
