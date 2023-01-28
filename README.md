@@ -9,6 +9,7 @@ The bird config for my network
 #  (207705,   1,*)   do not send to ibgp
 #  (207705,   2,*)   do not send to ebgp
 #  (207705,   3,*)   do not send to kernel
+#  (207705,   4,*)   send to kernel but mark unreachable
 #  (207705, 101,*)   allow bgp_local_perf
 #  (207705, 201,*)   transit routes
 #  (207705, 202,*)   peer routes
