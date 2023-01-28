@@ -30,6 +30,7 @@ The bird config for my network
 #    (207705,1░10,0)            Do action to every region
 #    (207705,1░11,region_code)  Don't do action to this region
 #    (207705,1░12,region_code)  Do action to this region
+#    (207705,1019,0)            Disable (asn,1010,0), (asn,1011,local_region) as default value
 #    (207705,1░20,0)            Do action to every country
 #    (207705,1░21,country_code) Don't do action to this country
 #    (207705,1░22,country_code) Do action to this country
