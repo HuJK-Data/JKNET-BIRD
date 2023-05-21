@@ -34,6 +34,7 @@ The bird config for my network
 #    (207705,1░11,region_code)  Don't do action to this region
 #    (207705,1░12,region_code)  Do action to this region
 #    (207705,1019,0)            Disable (asn,1010,0), (asn,1011,local_region) as default value
+#    (207705,1019,1)            Do not proform prepend to balance the path_len
 #    (207705,1░20,0)            Do action to every country
 #    (207705,1░21,country_code) Don't do action to this country
 #    (207705,1░22,country_code) Do action to this country
@@ -42,6 +43,9 @@ The bird config for my network
 #    (207705,1░30,3)            Do action to peers
 #    (207705,1░30,4)            Do action to downstreams
 #    (207705,1░30,8)            Do action to route collectors
+#    (207705,1░40,1)            Do action to non-self upstream
+#    (207705,1░40,2)            Do action to non-self peers
+#    (207705,1░40,3)            Do action to non-self ixrs
 #   Examples:
 #     prepend 11 to AS6939: 
 #       (207705,1102,6939): prepend 1 to AS6939
